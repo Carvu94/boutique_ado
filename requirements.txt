@@ -6,6 +6,7 @@ defusedxml==0.7.1
 Django==3.2.18
 django-allauth==0.41.0
 django-ckeditor==6.5.1
+django-crispy-forms==1.14.0
 django-js-asset==2.0.0
 django-tinymce==3.6.1
 Faker==12.0.1
@@ -15,6 +16,7 @@ idna==3.4
 macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot7/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-133.100.1.1/macholib-1.15.2-py2.py3-none-any.whl
 mixer==7.2.2
 oauthlib==3.2.2
+Pillow==9.5.0
 pycodestyle==2.10.0
 python-dateutil==2.8.2
 python3-openid==3.2.0
