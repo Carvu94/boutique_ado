@@ -184,8 +184,8 @@ if 'USE_AWS' in os.environ:
     # Bucket
     AWS_STORAGE_BUCKET_NAME = 'boutique-ado-matej'
     AWS_S3_REGION_NAME = 'EU (Paris) eu-west-3'
-    AWS_ACCESS_KEY_ID - os.environ.get('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY_ID - os.environ.get('AWS_SECRET_ ACCESS_KEY_ID')
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY_ID = os.environ.get('AWS_SECRET_ACCESS_KEY_ID')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
     # static and media files
